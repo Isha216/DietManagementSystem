@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diet Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <!-- main container -->
+    <div class="container">     
+        <header class="header">
+            <h1>Diet Management System</h1>
+            <p>Track your meals, calories & goals</p>
+        </header>
+
+        <!-- user profile section -->
+         <section class="profile-card">
+            <h2>Your profile</h2>
+            <div class="profile-info">
+                <input type="number" id="weight" placeholder="Weight (kg)">
+                <input type="number" id="height" placeholder="Height (cm)">
+                <input type="number" id="age" placeholder="Age">
+                <select id="gender"><option>Male</option><option>Female</option></select>
+                <button id="calculateBMI">Calculate BMI</button> 
+                <div id="bmiResult"></div>             
+            </div>
+
+         </section>
+
+         <!-- Meal Tracker section -->
+          <section class="meal-tracker">
+            <h2>Today's Meals</h2>
+            <div class="add-meal">
+                <input type="text" id="foodName" placeholder="Food Name">
+                <input type="number" id="calories" placeholder="Calories">
+                <button id="addMeal">Add Meal</button>
+            </div>
+
+            <!-- For displaying Meals -->
+            <div class="meal-list" id="mealsList">
+                <p>No meals added yet</p>
+            </div>
+            <div class="total-calories" id="totalCalories">
+                <span>Total: </span><span id="totalValue">0</span>
+                Kcal</div>
+                
+          </section>
+
+        <!-- Daily Goals section -->
+        <section class="goals">
+            <h2>Daily Goal</h2>
+            <input type="number" id="dailyGoal" placeholder="Daily calories goal" value="2000">
+            <div class="progress-container">  <!--a progress bar-->
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+            </div>
+            <span id="progressText">0%</span>
+        </section>
+        
+</div>
+    <script src="script.js"></script>
+
+</body>
+</body>
+</html>
