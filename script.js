@@ -24,7 +24,7 @@ document.getElementById('calculateBMI').addEventListener('click',
     function()
     {
          const weight = parseFloat(document.getElementById('weight').value);
-        const height = parseFloat(document.getElementById('height').value);
+        const height = parseFloat(document.getElementById('height').value) / 100;
         
 
         const bmi = weight / (height * height);
