@@ -1,6 +1,6 @@
 # 🍎 Diet Management System - FULL STACK
 
-**Live Demo**: [https://your-netlify-link.netlify.app](https://your-netlify-link.netlify.app)
+
 
 ![Screenshot](screenshots/home.png)
 ![DB Proof](screenshots/phpmyadmin.png)
