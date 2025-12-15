@@ -1,10 +1,6 @@
 # 🍎 Diet Management System - FULL STACK
 
 
-
-![Screenshot](screenshots/home.png)
-![DB Proof](screenshots/phpmyadmin.png)
-
 ## 🚀 Features (Production-Ready)
 
 ✅ **Real MySQL Backend** - Data persists across refreshes  
